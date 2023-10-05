@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .body{
+        height: 1000px;
+      }
+      .container1{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        gap: 10px;
+      }
+      .item1{
+        width: 100%;
+        
+        height: 750px;
+        background-color: aquamarine;
+      }
+      .item2{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+      }
+      .subitem1{
+        height: 375px;
+        flex-grow: 1;
+        background-color: green;
+      }
+      .subitem2{
+        height: 375px;
+        flex-grow: 1;
+        background-color: green;
+      }
+      .container2{
+        display: flex;
+        gap: 10px;
+        height: 250px;
+        margin-top: 10px;
+      }
+      .item3{
+        flex-grow: 1;
+        background-color: blueviolet;
+      }
+      .item4{
+        flex-grow: 1;
+        background-color: blueviolet;
+      }
+      .item5{
+        flex-grow: 1;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="item1"></div>
+      <div class="item2">
+        <div class="subitem1"></div>
+        <div class="subitem2"></div>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="item3"></div>
+      <div class="item4"></div>
+      <div class="item5"></div>
+    </div>
+  </body>
+</html>
